@@ -1,0 +1,2 @@
+# Ultimate-Tic-Tac-Toe
+A Java program I wrote that plays ultimate Tic-Tac-Toe against the user.  Ultimate tic tac toe is a more complicated version of tic tac toe in which there is a large three by three board in which each square has a small three by three board.  The position within the small board that the previous move was played determines the board that the next player is allowed to play in.  Currently the computer plays against a human player, using a minimax search tree.
