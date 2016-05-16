@@ -283,7 +283,9 @@ public class UTTT
      * @param numbers
      * @return A score based on evaluation.  10,000 if the diagonal is filled by the same player, 3 if two are 
      * filled by the same payer and one is blank, 1 if one is filled and two are blank, 0 if all are blank, or if
-     * both players have at least 1 of the three tiles filled.  Used for the small boards and the big board.
+     * both players have at least 1 of the three tiles filled.  Used for the small boards and can be used on the big board if the
+     * win condition is changed to winning three small boards in a row.  This is not implemented.
+     * 
      * A positive score means the computer has the advantage 
      */
     public int getDiagonalScore(int numbers[])
