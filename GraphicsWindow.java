@@ -12,12 +12,12 @@ import javax.swing.*;
 
 public class GraphicsWindow extends Applet implements MouseListener
 {
-	private static final long serialVersionUID = 0x4550a73265cc2120L;
+    private static final long serialVersionUID = 0x4550a73265cc2120L;
     public JFrame frame;
     public JPanel panel;
     public UTTT game;
     public volatile boolean playersTurn; 
-    public Color colors[] = {
+    public Color colors[] = { //White(blank), Red (Computer Placed), Green(Human Placed), Blue, (Availible options for human placement)
         new Color(255, 255, 255, 255), new Color(255, 0, 0, 255), new Color(0, 255, 0, 255), new Color(0, 0, 255, 255)
     };
     public GraphicsWindow()
